@@ -1,0 +1,82 @@
+
+/* header styling */
+.home {
+  background-image: url('http://i694.photobucket.com/albums/vv309/pacalabre/photo-1427501482951-3da9b725be23.jpg');
+  background-repeat: none;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+
+}
+
+.headshot {
+  border-radius: 50%;
+  height: 250px;
+  width: 250px;
+  display: block;
+  margin-left: 30em;
+  margin-top: -15em;
+}
+
+.section-header {
+  padding: 12em 10em 17em 10em;
+}
+
+.section-header-h1{
+  font-family: oswald;
+  font-size: 65px;
+  color: white;
+}
+
+.section-header-h2 {
+  font-family: oswald;
+  color: white;
+}
+
+.nav-ul-li {
+  font-family: fjalla one;
+  font-size: 20px;
+}
+
+/*Projects Page*/
+.projects {
+  background-image: url('http://i694.photobucket.com/albums/vv309/pacalabre/photo-1432847712612-926caafaa802.jpg');
+  background-repeat: none;
+  background-size: cover;
+  background-attachment:;
+  background-position: center center;
+  height: 500px;
+}
+
+.skills {
+  background-image: url('http://i694.photobucket.com/albums/vv309/pacalabre/photo-1431209402980-30a1ab82b4da.jpg');
+  background-repeat: none;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+}
+
+.skills-ul {
+  font-family: oswald;
+  font-size: 40px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 6em;
+
+}
+
+
+
+.resume {
+  background-image: url('http://i694.photobucket.com/albums/vv309/pacalabre/6e609595.jpg');
+  background-repeat: none;
+  background-size: cover;
+  background-attachment:;
+  background-position: center center;
+  height: 500px;
+}
+
+.footer {
+  background-color: #232323;
+  height: 500px;
+}
