@@ -1,9 +1,34 @@
 
-/* Header Styling */
+$primary-color: #232323;
+$primary-font: oswald;
+$secondary-font: fjalla one;
 
+@mixin fixed {
+  background-repeat: none;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+}
+
+@mixin not-fixed {
+  background-repeat: none;
+  background-size: cover;
+  background-position: center center;
+}
+
+@mixin section-primary-heading {
+  font-family: oswald;
+  font-size: 65px;
+  color: white;
+  background-color: #232323;
+  padding: .7em .7em .7em 1.5em;
+}
+
+/* Header Styling */
 
 .home {
   background-image: url('http://i694.photobucket.com/albums/vv309/pacalabre/photo-1427501482951-3da9b725be23.jpg');
+  @include fixed;
 }
 
 .headshot {
@@ -15,15 +40,19 @@
   margin-top: -15em;
 }
 
+.section-header {
+  padding: 12em 10em 17em 7em;
+}
+
 .section-header-h1 {
-  font-family: oswald;
+  font-family: $primary-font;
   font-size: 65px;
   color: white;
   margin-bottom: -10px;
 }
 
 .section-header-h2 {
-  font-family: oswald;
+  font-family: $primary-font;
   color: white;
 }
 
@@ -31,7 +60,7 @@
 /* Nav Styling */
 
 .nav-ul-li {
-  font-family: fjalla one;
+  font-family: $secondary-font;
   font-size: 20px;
 }
 
@@ -51,11 +80,11 @@
 
 .projects {
   background-image: url('http://i694.photobucket.com/albums/vv309/pacalabre/photo-1432847712612-926caafaa802.jpg');
+  @include not-fixed;
 }
 
 .main-section-projects {
-  padding-left: 1.5em;
-  /* Turn this into  var $section-padding-left */
+  @include section-primary-heading;
 }
 
 .main-projects-links {
@@ -69,14 +98,12 @@
 .skills {
   background-image: url('http://i694.photobucket.com/albums/vv309/pacalabre/photo-1431209402980-30a1ab82b4da.jpg');
   overflow: auto;
-}
+  @include fixed;
 
-.main-section-skills {
-  padding-left: 1.5em;
 }
 
 .skills-ul {
-  font-family: oswald;
+  font-family: $primary-font;
   font-size: 40px;
   margin:-3em auto auto auto;
   padding: 6em;
@@ -94,21 +121,21 @@
 
 .resume {
   background-image: url('http://i694.photobucket.com/albums/vv309/pacalabre/6e609595.jpg');
+  @include not-fixed;
   height: 500px;
 }
 
 .main-section-resume {
-  padding-left: 1.5em;
+  @include section-primary-heading;
 }
-
 
 /* Contact Me Page */
 
 .main-section-contact {
-  padding-left: 1.5em;
+  @include section-primary-heading;
 }
 
 .contact {
-  background-color: #232323;
+  background-color: $primary-color;
   height: 600px;
 }
