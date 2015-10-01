@@ -1,12 +1,8 @@
 
-/* header styling */
+/* Header Styling */
+
 .home {
   background-image: url('http://i694.photobucket.com/albums/vv309/pacalabre/photo-1427501482951-3da9b725be23.jpg');
-  background-repeat: none;
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center center;
-
 }
 
 .headshot {
@@ -14,26 +10,15 @@
   height: 250px;
   width: 250px;
   display: block;
-  margin-left: 30em;
+  margin-left: 35em;
   margin-top: -15em;
 }
 
-.section-header {
-  padding: 12em 10em 17em 10em;
-}
-
-.section-header-h1{
+.section-header-h1 {
   font-family: oswald;
   font-size: 65px;
   color: white;
   margin-bottom: -10px;
-}
-
-.main-section-heading {
-  font-family: oswald;
-  font-size: 65px;
-  color: white;
-  padding: .8em 1em 1em 1em;
 }
 
 .section-header-h2 {
@@ -41,23 +26,34 @@
   color: white;
 }
 
+
+/* Nav Styling */
+
 .nav-ul-li {
   font-family: fjalla one;
   font-size: 20px;
 }
 
+.nav-ul-social {
+  margin-top: 1px;
+  float: right;
+  padding: 8.5px 10px 5px;
+}
+
+.nav-ul-social-img {
+  height: 30px;
+  width: 30px;
+}
+
+
 /* Projects Page */
 
 .projects {
   background-image: url('http://i694.photobucket.com/albums/vv309/pacalabre/photo-1432847712612-926caafaa802.jpg');
-  background-repeat: none;
-  background-size: cover;
-  background-attachment:;
-  background-position: center center;
 }
 
 .main-section-projects {
-  padding-left: 40%;
+  padding-left: 1.5em;
 }
 
 .main-projects-links {
@@ -65,27 +61,24 @@
   margin: 5px 5px 10px 55px;
 }
 
+
 /* Skills Page */
 
 .skills {
   background-image: url('http://i694.photobucket.com/albums/vv309/pacalabre/photo-1431209402980-30a1ab82b4da.jpg');
-  background-repeat: none;
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center center;
+  overflow: auto;
 }
 
 .main-section-skills {
-  padding-left: 43%;
+  padding-left: 1.5em;
 }
 
 .skills-ul {
   font-family: oswald;
   font-size: 40px;
-  margin:-7em auto auto auto;
+  margin:-3em auto auto auto;
   padding: 6em;
   list-style-type: none;
-
 }
 
 .skills-ul-li {
@@ -94,25 +87,23 @@
   margin-left: -.5em;
 }
 
+
 /* Resume Page */
 
 .resume {
   background-image: url('http://i694.photobucket.com/albums/vv309/pacalabre/6e609595.jpg');
-  background-repeat: none;
-  background-size: cover;
-  background-attachment:;
-  background-position: center center;
   height: 500px;
 }
 
 .main-section-resume {
-  padding-left: 40%;
+  padding-left: 1.5em;
 }
+
 
 /* Contact Me Page */
 
 .main-section-contact {
-  padding-left: 36%;
+  padding-left: 1.5em;
 }
 
 .contact {
