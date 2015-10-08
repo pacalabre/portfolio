@@ -1,10 +1,24 @@
-/* Header Styling */
-.home {
-  background-image: url("http://i694.photobucket.com/albums/vv309/pacalabre/photo-1427501482951-3da9b725be23.jpg");
+.home, .skills {
   background-repeat: none;
   background-size: cover;
   background-attachment: fixed;
   background-position: center center; }
+
+.projects, .resume {
+  background-repeat: none;
+  background-size: cover;
+  background-position: center center; }
+
+.main-section-projects, .main-section-resume, .main-section-contact {
+  font-family: oswald;
+  font-size: 65px;
+  color: white;
+  background-color: #232323;
+  padding: .7em .7em .7em 1.5em; }
+
+/* Header Styling */
+.home {
+  background-image: url("http://i694.photobucket.com/albums/vv309/pacalabre/photo-1427501482951-3da9b725be23.jpg"); }
 
 .headshot {
   border-radius: 50%;
@@ -43,17 +57,7 @@
 
 /* Projects Page */
 .projects {
-  background-image: url("http://i694.photobucket.com/albums/vv309/pacalabre/photo-1432847712612-926caafaa802.jpg");
-  background-repeat: none;
-  background-size: cover;
-  background-position: center center; }
-
-.main-section-projects {
-  font-family: oswald;
-  font-size: 65px;
-  color: white;
-  background-color: #232323;
-  padding: .7em .7em .7em 1.5em; }
+  background-image: url("http://i694.photobucket.com/albums/vv309/pacalabre/photo-1432847712612-926caafaa802.jpg"); }
 
 .main-projects-links {
   padding: 10px 10px 20px 40px;
@@ -62,11 +66,7 @@
 /* Skills Page */
 .skills {
   background-image: url("http://i694.photobucket.com/albums/vv309/pacalabre/photo-1431209402980-30a1ab82b4da.jpg");
-  overflow: auto;
-  background-repeat: none;
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center center; }
+  overflow: auto; }
 
 .skills-ul {
   font-family: oswald;
@@ -83,26 +83,9 @@
 /* Resume Page */
 .resume {
   background-image: url("http://i694.photobucket.com/albums/vv309/pacalabre/6e609595.jpg");
-  background-repeat: none;
-  background-size: cover;
-  background-position: center center;
   height: 500px; }
 
-.main-section-resume {
-  font-family: oswald;
-  font-size: 65px;
-  color: white;
-  background-color: #232323;
-  padding: .7em .7em .7em 1.5em; }
-
 /* Contact Me Page */
-.main-section-contact {
-  font-family: oswald;
-  font-size: 65px;
-  color: white;
-  background-color: #232323;
-  padding: .7em .7em .7em 1.5em; }
-
 .contact {
   background-color: #232323;
   height: 600px; }

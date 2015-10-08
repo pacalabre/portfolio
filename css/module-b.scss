@@ -3,20 +3,20 @@ $primary-color: #232323;
 $primary-font: oswald;
 $secondary-font: fjalla one;
 
-@mixin fixed {
+%fixed {
   background-repeat: none;
   background-size: cover;
   background-attachment: fixed;
   background-position: center center;
 }
 
-@mixin not-fixed {
+%not-fixed {
   background-repeat: none;
   background-size: cover;
   background-position: center center;
 }
 
-@mixin section-primary-heading {
+%section-primary-heading {
   font-family: oswald;
   font-size: 65px;
   color: white;
@@ -28,7 +28,7 @@ $secondary-font: fjalla one;
 
 .home {
   background-image: url('http://i694.photobucket.com/albums/vv309/pacalabre/photo-1427501482951-3da9b725be23.jpg');
-  @include fixed;
+  @extend %fixed;
 }
 
 .headshot {
@@ -80,11 +80,11 @@ $secondary-font: fjalla one;
 
 .projects {
   background-image: url('http://i694.photobucket.com/albums/vv309/pacalabre/photo-1432847712612-926caafaa802.jpg');
-  @include not-fixed;
+  @extend %not-fixed;
 }
 
 .main-section-projects {
-  @include section-primary-heading;
+  @extend %section-primary-heading;
 }
 
 .main-projects-links {
@@ -97,8 +97,8 @@ $secondary-font: fjalla one;
 
 .skills {
   background-image: url('http://i694.photobucket.com/albums/vv309/pacalabre/photo-1431209402980-30a1ab82b4da.jpg');
+  @extend %fixed;
   overflow: auto;
-  @include fixed;
 
 }
 
@@ -121,18 +121,18 @@ $secondary-font: fjalla one;
 
 .resume {
   background-image: url('http://i694.photobucket.com/albums/vv309/pacalabre/6e609595.jpg');
-  @include not-fixed;
+  @extend %not-fixed;
   height: 500px;
 }
 
 .main-section-resume {
-  @include section-primary-heading;
+  @extend %section-primary-heading;
 }
 
 /* Contact Me Page */
 
 .main-section-contact {
-  @include section-primary-heading;
+  @extend %section-primary-heading;
 }
 
 .contact {
