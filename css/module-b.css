@@ -65,8 +65,7 @@
 
 /* Skills Page */
 .skills {
-  background-image: url("http://i694.photobucket.com/albums/vv309/pacalabre/photo-1431209402980-30a1ab82b4da.jpg");
-  overflow: auto; }
+  background-image: url("http://i694.photobucket.com/albums/vv309/pacalabre/photo-1431209402980-30a1ab82b4da.jpg"); }
 
 .skills-ul {
   font-family: oswald;
@@ -84,6 +83,10 @@
 .resume {
   background-image: url("http://i694.photobucket.com/albums/vv309/pacalabre/6e609595.jpg");
   height: 500px; }
+
+.main-section-resume {
+  margin-top: 0px;
+  padding-left: 1.275em; }
 
 /* Contact Me Page */
 .contact {

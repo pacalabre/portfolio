@@ -98,7 +98,6 @@ $secondary-font: fjalla one;
 .skills {
   background-image: url('http://i694.photobucket.com/albums/vv309/pacalabre/photo-1431209402980-30a1ab82b4da.jpg');
   @extend %fixed;
-  overflow: auto;
 
 }
 
@@ -127,6 +126,8 @@ $secondary-font: fjalla one;
 
 .main-section-resume {
   @extend %section-primary-heading;
+  margin-top:0px;
+  padding-left: 1.275em;
 }
 
 /* Contact Me Page */
