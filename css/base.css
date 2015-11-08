@@ -433,7 +433,6 @@ th {
   padding: 0;
 }
 
-
 /* ADDED BASE STYLE FOR BOOTSTRAP GRID */
 
 /* Remove padding from grid container */
@@ -446,4 +445,8 @@ th {
 .row {
   margin-right: 0px;
   margin-left: 0pxß;
+}
+
+h3 {
+  margin-top: 0px;
 }

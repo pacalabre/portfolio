@@ -29,7 +29,7 @@
   margin-top: -15em; }
 
 .section-header {
-  padding: 12em 10em 17em 7em; }
+  margin: 15em 10em 17em 20%; }
 
 .section-header-h1 {
   font-family: oswald;
@@ -88,9 +88,61 @@
   margin-top: 0px;
   padding-left: 1.275em; }
 
+.resume-body {
+  background-color: black;
+  opacity: .925;
+  margin: 7%; }
+
+.resume-text {
+  margin: 7%; }
+
 /* Contact Me Page */
 .contact {
+  background-color: #232323; }
+
+.contact-form {
+  margin: 15%; }
+
+/* Footer */
+.footer {
+  color: white;
   background-color: #232323;
-  height: 600px; }
+  height: 100px;
+  text-align: center;
+  padding-top: 2em; }
+
+/* Media Queries */
+@media only screen and (max-width: 950px) {
+  .section-header {
+    margin-top: 12em;
+    margin-left: 35%; }
+
+  .headshot {
+    margin-left: 4em;
+    margin-top: 5em; } }
+@media only screen and (max-width: 805px) {
+  .headshot {
+    margin-left: 0em; }
+
+  .skills-ul {
+    padding: 4em; }
+
+  .skills-ul-li {
+    font-size: 100px; } }
+@media only screen and (max-width: 767px) {
+  .main-projects-links {
+    margin-left: 15%; } }
+@media only screen and (max-width: 578px) {
+  .section-header {
+    margin-left: 20%; }
+
+  .headshot {
+    margin-left: -1em; }
+
+  .skills-ul {
+    padding: 4em 3em 3em 2em; }
+
+  .skills-ul-li {
+    font-size: 60px; } }
 
 /*# sourceMappingURL=module-b.css.map */
