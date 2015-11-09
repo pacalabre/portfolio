@@ -238,3 +238,18 @@ $secondary-font: fjalla one;
     }
 }
 
+@media only screen and (max-width: 500px) {
+
+  .home {
+    background-attachment: scroll;
+  }
+
+  .section-header {
+    margin-left: 10%;
+  }
+
+  .main-section-projects, .main-section-resume, .main-section-contact {
+    padding-left: .5em;
+  }
+
+}
