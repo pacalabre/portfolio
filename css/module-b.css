@@ -4,12 +4,12 @@
   background-attachment: fixed;
   background-position: center center; }
 
-.projects, .resume {
+.main-section-about, .projects, .resume, .contact {
   background-repeat: none;
   background-size: cover;
   background-position: center center; }
 
-.main-section-projects, .main-section-resume, .main-section-contact {
+.main-section-about, .main-section-projects, .main-section-resume, .main-section-contact {
   font-family: oswald;
   font-size: 65px;
   color: white;
@@ -55,6 +55,16 @@
   height: 30px;
   width: 30px; }
 
+/* About Me */
+.about {
+  background-color: #2f3f51; }
+
+.about-text {
+  font-family: oswald;
+  font-size: 35px;
+  margin: 5% 7%;
+  color: white; }
+
 /* Projects Page */
 .projects {
   background-image: url("http://i694.photobucket.com/albums/vv309/pacalabre/photo-1432847712612-926caafaa802.jpg"); }
@@ -81,16 +91,16 @@
 
 /* Resume Page */
 .resume {
-  background-image: url("http://i694.photobucket.com/albums/vv309/pacalabre/6e609595.jpg");
-  height: 500px; }
+  background-image: url("http://i694.photobucket.com/albums/vv309/pacalabre/6e609595.jpg"); }
 
 .main-section-resume {
   margin-top: 0px;
   padding-left: 1.275em; }
 
 .resume-body {
+  color: white;
   background-color: black;
-  opacity: .925;
+  opacity: .9;
   margin: 7%; }
 
 .resume-text {
@@ -101,7 +111,7 @@
   background-color: #232323; }
 
 .contact-form {
-  margin: 15%; }
+  margin: 5% 15%; }
 
 /* Footer */
 .footer {
@@ -109,13 +119,14 @@
   background-color: #232323;
   height: 100px;
   text-align: center;
-  padding-top: 4em; }
+  padding-top: 2em;
+  margin-top: 0em; }
 
 /* Media Queries */
 @media only screen and (max-width: 950px) {
   .section-header {
     margin-top: 12em;
-    margin-left: 35%; }
+    margin-left: 30%; }
 
   .headshot {
     margin-left: 4em;

@@ -75,6 +75,23 @@ $secondary-font: fjalla one;
   width: 30px;
 }
 
+/* About Me */
+
+.about {
+  background-color: #2f3f51;
+}
+
+.main-section-about {
+  @extend %section-primary-heading;
+  @extend %not-fixed;
+}
+
+.about-text {
+  font-family: $primary-font;
+  font-size: 35px;
+  margin: 5% 7%;
+  color: white;
+}
 
 /* Projects Page */
 
@@ -121,7 +138,6 @@ $secondary-font: fjalla one;
 .resume {
   background-image: url('http://i694.photobucket.com/albums/vv309/pacalabre/6e609595.jpg');
   @extend %not-fixed;
-  height: 500px;
 }
 
 .main-section-resume {
@@ -131,8 +147,9 @@ $secondary-font: fjalla one;
 }
 
 .resume-body {
+  color: white;
   background-color: black;
-  opacity: .925;
+  opacity: .9;
   margin: 7%;
 }
 
@@ -148,10 +165,12 @@ $secondary-font: fjalla one;
 
 .contact {
   background-color: $primary-color;
+  @extend %not-fixed;
+
 }
 
 .contact-form {
-  margin: 15%;
+  margin: 5% 15%;
 }
 
 /* Footer */
@@ -161,7 +180,8 @@ $secondary-font: fjalla one;
   background-color: $primary-color;
   height: 100px;
   text-align: center;
-  padding-top: 4em;
+  padding-top: 2em;
+  margin-top: 0em;
 
 }
 
@@ -170,7 +190,7 @@ $secondary-font: fjalla one;
 @media only screen and (max-width: 950px) {
   .section-header {
   margin-top: 12em;
-  margin-left: 35%;
+  margin-left: 30%;
   }
 
   .headshot {
