@@ -27,7 +27,7 @@ $secondary-font: fjalla one;
 /* Header Styling */
 
 .home {
-  background-image: url('http://i694.photobucket.com/albums/vv309/pacalabre/photo-1427501482951-3da9b725be23.jpg');
+  background-image: url("../Portfolio Photos/sky.jpg");
   @extend %fixed;
 }
 
@@ -96,7 +96,7 @@ $secondary-font: fjalla one;
 /* Projects Page */
 
 .projects {
-  background-image: url('http://i694.photobucket.com/albums/vv309/pacalabre/photo-1432847712612-926caafaa802.jpg');
+  background-image: url("../Portfolio Photos/citylights1.jpg");
   @extend %not-fixed;
 }
 
@@ -113,7 +113,7 @@ $secondary-font: fjalla one;
 /* Skills Page */
 
 .skills {
-  background-image: url('http://i694.photobucket.com/albums/vv309/pacalabre/photo-1431209402980-30a1ab82b4da.jpg');
+  background-image: url("../Portfolio Photos/citylights2.jpg");
   @extend %fixed;
 
 }

@@ -18,7 +18,7 @@
 
 /* Header Styling */
 .home {
-  background-image: url("http://i694.photobucket.com/albums/vv309/pacalabre/photo-1427501482951-3da9b725be23.jpg"); }
+  background-image: url("../Portfolio Photos/sky.jpg"); }
 
 .headshot {
   border-radius: 50%;
@@ -67,7 +67,7 @@
 
 /* Projects Page */
 .projects {
-  background-image: url("http://i694.photobucket.com/albums/vv309/pacalabre/photo-1432847712612-926caafaa802.jpg"); }
+  background-image: url("../Portfolio Photos/citylights1.jpg"); }
 
 .main-projects-links {
   padding: 0px 0px 40px 0px;
@@ -75,7 +75,7 @@
 
 /* Skills Page */
 .skills {
-  background-image: url("http://i694.photobucket.com/albums/vv309/pacalabre/photo-1431209402980-30a1ab82b4da.jpg"); }
+  background-image: url("../Portfolio Photos/mtns1.jpg"); }
 
 .skills-ul {
   font-family: oswald;
@@ -91,7 +91,7 @@
 
 /* Resume Page */
 .resume {
-  background-image: url("http://i694.photobucket.com/albums/vv309/pacalabre/6e609595.jpg"); }
+  background-image: url("../Portfolio Photos/citylights2.jpg"); }
 
 .main-section-resume {
   margin-top: 0px;
