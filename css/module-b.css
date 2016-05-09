@@ -156,6 +156,7 @@
   .skills-ul-li {
     font-size: 60px; } }
 @media only screen and (max-width: 500px) {
+
   .home {
     background-attachment: scroll; }
 

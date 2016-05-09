@@ -14,7 +14,6 @@
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/layout.css">
     <link rel="stylesheet" href="css/module-b.css">
-    <link rel="stylesheet" href="css/state.css">
   </head>
   <body>
     <!--Home / Header and Nav-->
@@ -65,10 +64,21 @@
     <main>
       <!-- About Me -->
       <section class="about">
-        <p class="about-text">I am a self-taught Front-end Developer looking to immerse myself in the world of coding. I am currently seeking relationships and opportunities where I can not only contribute to projects from day one, but where I can also cultivate my current skill
-          set to establish a passionate, creative, and adventerous future together. </p>
+        <p class="about-text">I am a front end developer with a passion for building clean, beautiful, responsive, and maintainable websites and web apps. When I am not coding or listening to podcasts about coding - you can find me making instrumental hip hop, searching for deep powder on the mountain, or attending comedy shows and concerts. <!-- I am currently seeking relationships and opportunities where I can not only contribute to projects from day one, but where I can also cultivate my current skill set to establish a passionate, creative, and adventerous future together. -->  </p>
       </section>
-      <!--Projects Section-->
+      <!--Projects Section
+        adding:
+        - beat repeat
+        - powstash
+        - group project
+        - MEAN stack project
+        - tic tac toe
+        - to do
+        - pomodoro clock
+        - maybe a site for cass or nikki
+
+
+    -->
       <section id="projects" class="projects container-fluid">
         <h3 class="main-section-projects">Projects</h3>
         <section class="row">
@@ -94,9 +104,11 @@
         </ul>
       </section>
       <!--Resume Section -->
-      <section id="resume" class="resume">
+      <section id="resume" class="resume row">
         <h3 class="main-section-resume">Experience</h3>
-        <section class="resume-body">
+        <iframe src="https://resume.creddle.io/embed/elvwrjbjvzc"
+  width="850" height="1100" seamless></iframe>
+        <!-- <section class="resume-body">
           <div class="resume-text">
             <h3>employment</h3>
             <ul>
@@ -118,32 +130,21 @@
             <h3>other interests</h3>
             <p>Connoisseur of forward thinking hip hop, seeker of powder days on the hill, and lifelong Chicago Bulls fanatic (even when they don't play defense.)</p>
           </div>
-        </section>
+        </section> -->
       </section>
       <!--Contact Me-->
       <section id="contact" class="contact">
         <h3 class="main-section-contact">Contact Me!</h3>
-        <div id="wufoo-zcc65zq0zrikep" class="contact-form">
-          <a href="https://pacalabre.wufoo.com/forms/zcc65zq0zrikep">online form</a>.
-        </div>
-        <div id="wuf-adv" style="font-family:inherit;font-size: small;color:#a7a7a7;text-align:center;display:block;">There are tons of <a href="http://www.wufoo.com/features/">Wufoo features</a> to help make your forms awesome.</div>
-        <script type="text/javascript">
-          var zcc65zq0zrikep;(function(d, t) {
-            var s = d.createElement(t), options = {
-            'userName':'pacalabre',
-            'formHash':'zcc65zq0zrikep',
-            'autoResize':true,
-            'height':'597',
-            'async':true,
-            'host':'wufoo.com',
-            'header':'show',
-            'ssl':true};
-            s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'www.wufoo.com/scripts/embed/form.js';
-            s.onload = s.onreadystatechange = function() {
-            var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
-            try { zcc65zq0zrikep = new WufooForm();zcc65zq0zrikep.initialize(options);zcc65zq0zrikep.display(); } catch (e) {}};
-            var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
-          })(document, 'script');
+        <form action="mailto:pacalabre@gmail.com
+
+
+        " method="POST" enctype="multipart/form-data" name="EmailTestForm">
+          Your Name:<br>
+          <input type="text" size="20" name="VisitorName"><br><br>
+          Your Comment:<br>
+          <textarea name="VisitorComment" rows="4" cols="20"></textarea><br><br>
+          <input type="submit" value="Email This Form">
+        </form>
         </script>
       </section>
       <footer class="footer">
@@ -151,7 +152,6 @@
       </footer>
     </main>
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
-    <script src="js/main.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
   </body>
 </html>
