@@ -112,8 +112,18 @@
   opacity: .9;
   margin: 7%; }
 
-.resume-img {
+.resume-img-lg {
   width: 100%;
+}
+
+.resume-img-sm {
+  width: 40%;
+  height: 40%;
+  margin: 10% 30%;
+  border-color: none;
+  background-image: none;
+  padding: 0px;
+
 }
 
 .resume-text {
