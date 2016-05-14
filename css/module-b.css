@@ -141,6 +141,14 @@ margin: 0px 0px 10% 40%
 .contact-form {
   margin: 5% 15%; }
 
+.contact-me-social {
+  float: right;
+  margin: -32px 30%; }
+
+.contact-me-email {
+  color: white;
+  margin: 0px 8%; }
+
 /* Footer */
 .footer {
   color: white;
@@ -149,6 +157,10 @@ margin: 0px 0px 10% 40%
   text-align: center;
   padding-top: 2em;
   margin-top: 0em; }
+
+  .footer-text {
+    font-size: 15px;
+    margin-top: 40px;}
 
 /* Media Queries */
 @media only screen and (max-width: 950px) {
