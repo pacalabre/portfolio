@@ -70,7 +70,7 @@
   background-image: url("../Portfolio Photos/citylights1.jpg"); }
 
 .main-projects-links {
-  padding: 0px 0px 40px 0px;
+  padding: 0px 0px 40px 13%;
   margin: 20px 5px 10px 6.25%; }
 
 /* Skills Page */
@@ -126,7 +126,11 @@
 @media only screen and (max-width: 950px) {
   .section-header {
     margin-top: 12em;
-    margin-left: 30%; }
+    margin-left: 30%;
+  }
+  .main-projects-links {
+    margin-left: 7%;
+  }
 
   .headshot {
     margin-left: 4em;
@@ -141,8 +145,8 @@
   .skills-ul-li {
     font-size: 100px; } }
 @media only screen and (max-width: 767px) {
-  .main-projects-links {
-    margin-left: 15%; } }
+  /*.main-projects-links {
+    margin-left: 15%; }*/ }
 @media only screen and (max-width: 578px) {
   .section-header {
     margin-left: 20%; }
