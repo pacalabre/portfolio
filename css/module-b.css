@@ -119,7 +119,7 @@
 .resume-img-sm {
   width: 40%;
   height: 40%;
-  margin: 10% 30%;
+  margin: 10% 0px 20px 30%;
   border-color: none;
   background-image: none;
   padding: 0px;
@@ -128,6 +128,11 @@
 
 .resume-text {
   margin: 7%; }
+
+.resume-buttons-section {
+margin: 0px 0px 10% 40%
+}
+
 
 /* Contact Me Page */
 .contact {
@@ -181,9 +186,6 @@
   .skills-ul-li {
     font-size: 60px; } }
 @media only screen and (max-width: 500px) {
-
-  .home {
-    background-attachment: scroll; }
 
   .section-header {
     margin-left: 10%; }
