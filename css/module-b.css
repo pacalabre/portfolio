@@ -73,6 +73,15 @@
   padding: 0px 0px 40px 13%;
   margin: 20px 5px 10px 6.25%; }
 
+.project-text {
+  float: left;
+  background-color: grey;
+  opacity: .8;
+  color: white;
+  margin: -20px 100px 10% 100px;
+  padding: 20px;
+}
+
 /* Skills Page */
 .skills {
   background-image: url("../Portfolio Photos/mtns1.jpg"); }
@@ -144,9 +153,7 @@
 
   .skills-ul-li {
     font-size: 100px; } }
-@media only screen and (max-width: 767px) {
-  /*.main-projects-links {
-    margin-left: 15%; }*/ }
+
 @media only screen and (max-width: 578px) {
   .section-header {
     margin-left: 20%; }
