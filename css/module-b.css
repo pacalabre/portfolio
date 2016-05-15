@@ -67,7 +67,8 @@
 
 /* Projects Page */
 .projects {
-  background-image: url("../Portfolio Photos/citylights1.jpg"); }
+  background-image: url("../Portfolio Photos/citylights1.jpg");
+  background-attachment: fixed; }
 
 .main-projects-links {
   padding: 0px 0px 40px 13%;
@@ -100,7 +101,8 @@
 
 /* Resume Page */
 .resume {
-  background-image: url("../Portfolio Photos/wetlights.jpg"); }
+  background-image: url("../Portfolio Photos/wetlights.jpg");
+  background-attachment: fixed;  }
 
 .main-section-resume {
   margin-top: 0px;
