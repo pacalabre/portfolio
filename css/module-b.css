@@ -35,18 +35,19 @@
   margin-top: -15em; }
 
 .section-header {
-  margin: 15em 10em 21em 20%;
+  margin: 15em 5em 21em 30%;
   float: right;}
 
 .section-header-h1 {
   font-family: oswald;
-  font-size: 65px;
+  font-size: 80px;
   color: blue;
   margin-bottom: -10px; }
 
 .section-header-h2 {
   font-family: oswald;
-  color: white; }
+  color: white;
+  font-size: 40px;}
 
 /* Nav Styling */
 .nav-ul-li {
@@ -211,6 +212,10 @@ margin: 0px 0px 10% 40%
   }
   .section-header-h1 {
     color: white;
+    font-size: 65px;
+  }
+  .section-header-h2 {
+    font-size: 30px;
   }
   .main-projects-links {
     margin-left: 7%;
