@@ -183,13 +183,14 @@ margin: 0px 0px 10% 40%
     margin-top: 40px;}
 
 /* Media Queries */
-@media only screen and (max-width: 925px) {
+@media only screen and (max-width: 950px) {
   .home {
   background-image: url("../Portfolio Photos/sky.jpg");
   }
-
   .headshot {
     display: block;
+    margin-left: 4em;
+    margin-top: 5em;
   }
   .section-header {
     margin-top: 12em;
@@ -202,10 +203,11 @@ margin: 0px 0px 10% 40%
   .main-projects-links {
     margin-left: 7%;
   }
+  .resume-buttons-section {
+    margin: 0px 0px 10% 35%;
+  }
 
-  .headshot {
-    margin-left: 4em;
-    margin-top: 5em; } }
+  }
 @media only screen and (max-width: 805px) {
   /*.headshot {
     margin-left: 0em; }*/
@@ -227,7 +229,11 @@ margin: 0px 0px 10% 40%
   .contact-me-email {
     float: left;
     margin-top: 0px;
-  } }
+  }
+  .resume-buttons-section {
+    margin: 0px 0px 10% 30%;
+  }
+}
 
 @media only screen and (max-width: 578px) {
   .home, .projects, .skills, .resume {
@@ -259,7 +265,11 @@ margin: 0px 0px 10% 40%
   }
   .main-section-contact{
     font-size: 35px;
-    } }
+    }
+  .resume-buttons-section {
+    margin: 0px 0px 10% 25%;
+  }
+  }
 @media only screen and (max-width: 500px) {
 
   .section-header {
@@ -273,8 +283,9 @@ margin: 0px 0px 10% 40%
   background-size: cover;
   background-position: center;
   }
-
-
+  .resume-buttons-section {
+    margin: 0px 0px 10% 20%;
+  }
 }
 
 
