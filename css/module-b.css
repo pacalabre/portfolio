@@ -93,7 +93,19 @@
 }
 
 .button {
-  border-style: solid white;
+  border: solid white thin;
+  /*background-color: blue;*/
+  color: white;
+  margin-top: 2em;
+  margin-right: 2em;
+  float: right;
+  padding:5px 10px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.button:hover {
+  text-decoration: none;
 }
 
 /* Skills Page */
@@ -177,10 +189,10 @@ margin: 0px 0px 10% 40%
   padding-top: 2em;
   margin-top: 0em; }
 
-  .footer-text {
-    font-family: Questrial;
-    font-size: 15px;
-    margin-top: 40px;}
+.footer-text {
+  font-family: Questrial;
+  font-size: 15px;
+  margin-top: 40px; }
 
 /* Media Queries */
 @media only screen and (max-width: 950px) {
