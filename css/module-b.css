@@ -41,7 +41,7 @@
 .section-header-h1 {
   font-family: oswald;
   font-size: 80px;
-  color: blue;
+  color: #2f3f51;
   margin-bottom: -10px; }
 
 .section-header-h2 {
@@ -50,14 +50,26 @@
   font-size: 40px;}
 
 /* Nav Styling */
+
+.navbar-collapse {
+  background-color: #2f3f51;
+}
 .nav-ul-li {
   font-family: oswald;
-  font-size: 20px; }
+  font-size: 25px; }
 
 .nav-ul-social {
+  color: grey;
+  font-size: 30px;
+  list-style: none;
   margin-top: 1px;
+  margin-right: 10px;
   float: right;
-  padding: 8.5px 10px 5px; }
+  padding: 3.5px 0px 0px 5px; }
+
+.nav-ul-social:hover {
+  color:white;
+}
 
 .nav-ul-social-img {
   height: 30px;
@@ -84,7 +96,7 @@
 
 .project-text {
   float: left;
-  font-family: Quicksand;
+  font-family: Questrial;
   font-size: 20px;
   background-color: grey;
   opacity: .8;
