@@ -125,11 +125,26 @@
 .skills {
   background-image: url("../Portfolio Photos/mtns1.jpg"); }
 
+.skill-row {
+  margin-top: 150px; }
+
+.jquery-logo {
+  margin-top: 60px; }
+
+.node-sass-margin-top {
+  margin-top: 50px;  }
+
+.mongo-margin-top {
+  margin-top: 80px;  }
+
+.express-margin-top {
+  margin-top: 100px; }
+
 .skills-ul {
   font-family: oswald;
   font-size: 40px;
-  margin: -3em auto auto auto;
-  padding: 6em;
+  margin: -5em auto auto auto;
+  padding: 6em 6em 6em 5em;
   list-style-type: none; }
 
 .skills-ul-li {

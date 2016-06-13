@@ -10,3 +10,8 @@
 - add section header to resume section
 - get rid of the image of the resume, click a see resume button
 - remove the gradient from the nav bar
+
+
+
+
+I had Paul as a student in my Web Development Immersive class at General Assembly. He was specifically passionate about Front-end development and was very good at taking a design and turning it into HTML and CSS. He has a great attitude, strong work ethic, takes pride in his work, and is always looking to learn more. I recommend Paul to employers looking to add a Front-end developer to their team.
