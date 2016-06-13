@@ -188,6 +188,18 @@
 margin: 0px 0px 10% 40%
 }
 
+.resume-buttons {
+  background-color: gray;
+  background-image: none;
+  border-color: transparent;
+  font-family: oswald;
+  font-size: 20px;
+  opacity:.8; }
+
+  .resume-button-h2 {
+  opacity: 1;
+  font-size: 20px;
+  margin: 3px;}
 
 /* Contact Me Page */
 .contact {
