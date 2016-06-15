@@ -149,6 +149,12 @@
   margin-top: -.25em;
   margin-left: -.5em; }
 
+/*.skills-learning-div {
+  margin-top: 1em; }*/
+
+.skills-learning-h2 {
+  margin-top: 6em; }
+
 /* Resume Page */
 .resume {
   background-image: url("../Portfolio Photos/wetlights.jpg");
