@@ -145,7 +145,7 @@
   list-style-type: none; }
 
 .skills-ul-li {
-  font-size: 100px;
+  font-size: 200px;
   margin-top: -.25em;
   margin-left: -.5em; }
 
@@ -283,7 +283,10 @@ margin: 0px 0px 10% 40%
     padding: 4em; }
 
   .skills-ul-li {
-    font-size: 100px; }
+    /*font-size: 100px;*/ }
+
+  /*  .skill-row {
+    margin-top: 10%;}*/
 
   .contact-me-email {
     float: left;
@@ -314,11 +317,18 @@ margin: 0px 0px 10% 40%
     font-size: 25px;
   }
 
+  .skill-row {
+    margin-top: 10%;}
+
+  .skill-icon {
+    padding: 20%;}
+
   .skills-ul {
     padding: 4em 3em 3em 2em; }
 
   .skills-ul-li {
-    font-size: 60px; }
+    padding: 25%;
+    /*font-size: 60px;*/ }
   .contact-me-email {
     font-size: 30px;
   }
