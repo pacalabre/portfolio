@@ -282,7 +282,10 @@ margin: 0px 0px 10% 40%
   .skills-ul {
     padding: 4em; }
 
-  .skills-ul-li {
+  .skill-icon {
+    padding: 20%;}
+
+  /*.skills-ul-li {
     /*font-size: 100px;*/ }
 
   /*  .skill-row {
@@ -304,10 +307,6 @@ margin: 0px 0px 10% 40%
     background-repeat: no-repeat;
   }
 
-  /*.home {
-    background-position: left bottom;
-  }*/
-
   .section-header {
     margin-left: 20%; }
 
@@ -321,14 +320,17 @@ margin: 0px 0px 10% 40%
     margin-top: 10%;}
 
   .skill-icon {
+    font-size:250px;
     padding: 20%;}
 
   .skills-ul {
-    padding: 4em 3em 3em 2em; }
+    padding: 5em 5em 3em 2em; }
 
   .skills-ul-li {
     padding: 25%;
-    /*font-size: 60px;*/ }
+    margin-left: -.7em;
+  }
+
   .contact-me-email {
     font-size: 30px;
   }
@@ -338,7 +340,7 @@ margin: 0px 0px 10% 40%
   .resume-buttons-section {
     margin: 0px 0px 10% 25%;
   }
-  }
+}
 @media only screen and (max-width: 500px) {
 
   .section-header {

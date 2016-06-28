@@ -446,7 +446,7 @@ th {
 /* Fix Bootstrap 10px overflow on .row */
 .row {
   margin-right: 0px;
-  margin-left: 0pxß;
+  margin-left: 0px;
 }
 
 h3 {
