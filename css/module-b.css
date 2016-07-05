@@ -263,7 +263,12 @@ margin: 0px 0px 10% 33%;
   .main-projects-links {
     margin-left: 7%;
   }
-
+  .resume-buttons-section {
+    margin-left: 31%;
+  }
+  .download-button {
+  padding-right: 27%;
+}
 
   }
 @media only screen and (max-width: 805px) {
@@ -337,15 +342,16 @@ margin: 0px 0px 10% 33%;
   .main-section-contact{
     font-size: 35px;
     }
-  .resume-buttons {
-    font-size: 17px;
-  }
 }
 
 @media only screen and (max-width: 768px) {
 
   .resume-buttons-section {
     margin: 0px 0px 10% 23.5%; }
+
+  .download-button {
+    padding-right: 0%;
+}
 }
 @media only screen and (max-width: 500px) {
 
