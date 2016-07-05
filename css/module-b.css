@@ -263,9 +263,7 @@ margin: 0px 0px 10% 33%;
   .main-projects-links {
     margin-left: 7%;
   }
- /* .resume-buttons-section {
-    margin: 0px 0px 10% 35%;
-  }*/
+
 
   }
 @media only screen and (max-width: 805px) {
@@ -339,9 +337,9 @@ margin: 0px 0px 10% 33%;
   .main-section-contact{
     font-size: 35px;
     }
- /* .resume-buttons-section {
-    margin: 0px 0px 10% 25%;
-  }*/
+  .resume-buttons {
+    font-size: 17px;
+  }
 }
 
 @media only screen and (max-width: 768px) {
