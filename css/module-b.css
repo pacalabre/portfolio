@@ -10,12 +10,18 @@
   background-size: cover;
   background-position: center center; }
 
-.main-section-about, .main-section-projects, .main-section-resume, .main-section-contact {
+.main-section-about, .main-section-projects, .main-section-resume, .main-section-contact{
   font-family: oswald;
   font-size: 65px;
   color: white;
   background-color: #232323;
   padding: .7em .7em .7em 1.5em; }
+
+.main-section-contact {
+  padding-right: 0px;
+  padding-left: 0px;
+  ;
+}
 
 /* Header Styling */
 .home {
@@ -207,7 +213,8 @@ margin: 0px 0px 10% 33%;
 
 /* Contact Me Page */
 .contact {
-  background-color: #232323; }
+  background-color: #232323;
+  text-align: center; }
 
 .contact-form {
   margin: 5% 15%; }
@@ -221,7 +228,7 @@ margin: 0px 0px 10% 33%;
   color: white;
   margin: 0px 0px 0px 8%;
   float: right;
-  margin-top: -100px;
+  margin-top: 0px;
   font-size: 40px; }
 
 /* Footer */
@@ -338,6 +345,7 @@ margin: 0px 0px 10% 33%;
 
   .contact-me-email {
     font-size: 30px;
+    /*margin-top: -65px;*/
   }
   .main-section-contact{
     font-size: 35px;
