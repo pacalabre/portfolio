@@ -105,7 +105,8 @@
 
 .main-projects-links {
   padding: 0px 0px 40px 13%;
-  margin: 20px 5px 10px 6.25%; }
+  /*margin: 20px 5px 10px 6.25%; */
+  margin: 14% 10px 5% 6.25%; }
 
 .project-text {
   float: left;
@@ -276,6 +277,7 @@ margin: 0px 0px 10% 33%;
   }
   .main-projects-links {
     margin-left: 7%;
+    margin: ;
   }
   .resume-buttons-section {
     margin-left: 31%;
@@ -347,7 +349,7 @@ margin: 0px 0px 10% 33%;
 
 
   .skills-ul {
-    padding: 5em 5em 3em 2em; }
+    /*padding: 5em 5em 3em 2em;*/ }
 
   .skills-ul-li {
     /*padding: 25%;*/
@@ -371,19 +373,24 @@ margin: 0px 0px 10% 33%;
     padding-right: 0%; }
 
   .skill-icon {
-    font-size: 200px;
-    padding: 15% 0%;
+    font-size: 270px;
+    margin:25% 0% 0% 25%;
   }
 
 }
 @media only screen and (max-width: 500px) {
 
   .section-header {
-    margin-left: 10%; }
+    float: right;
+    text-align: center;}
 
   .section-header-h1 {
-    font-size: 40px;
+    font-size: 60px;
   }
+
+  .skill-icon {
+    font-size: 200px;
+    margin-left: 10%; }
 
 
   .main-section-projects, .main-section-resume, .main-section-contact {
