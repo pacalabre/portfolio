@@ -88,13 +88,20 @@
 .about-text {
   font-family: Questrial;
   font-size: 35px;
-  margin: 5% 7%;
-  color: white; }
+  padding: 5% 7%;
+  color: white;
+  float:left; }
 
 /* Projects Page */
 .projects {
-  background-image: url("../Portfolio Photos/citylights1.jpg");
+  /*background-image: url("../Portfolio Photos/citylights1.jpg");*/
   background-attachment: fixed; }
+
+.project-beatrepeat, .project-powstash, .project-calc, .project-caladine, .resume {
+  background-image: url("../Portfolio Photos/citylights1.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;}
 
 .main-projects-links {
   padding: 0px 0px 40px 13%;
@@ -129,10 +136,10 @@
 
 /* Skills Page */
 .skills {
-  background-image: url("../Portfolio Photos/mtns1.jpg"); }
+  background-color: #e74c3c; }
 
 .skill-row {
-  margin-top: 150px; }
+  margin-top: 100px; }
 
 .node-sass-jquery-margin-top {
   margin-top: 50px;  }
@@ -145,15 +152,15 @@
 
 .skills-ul {
   font-family: oswald;
-  font-size: 40px;
+  /*font-size: 40px;*/
   margin: -5em auto auto auto;
-  padding: 6em 6em 6em 5em;
+  padding: 6em;
   list-style-type: none; }
 
 .skills-ul-li {
-  font-size: 275px;
+  font-size: 105px;
   margin-top: -.25em;
-  margin-left: -.5em; }
+ /* margin-left: -.5em; */}
 
 /*.skills-learning-div {
   margin-top: 1em; }*/
@@ -162,9 +169,9 @@
   margin-top: 6em; }
 
 /* Resume Page */
-.resume {
+/*.resume {
   background-image: url("../Portfolio Photos/wetlights.jpg");
-  background-attachment: fixed;  }
+  background-attachment: fixed;  }*/
 
 .main-section-resume {
   margin-top: 0px;
@@ -287,14 +294,19 @@ margin: 0px 0px 10% 33%;
   }
 */
 
+  .project-beatrepeat, .project-powstash, .project-calc, .project-caladine {
+    background-size: contain;
+    background-attachment: initial;
+  }
+
   .section-header-h1 {
     font-size: 44px
   }
   .skills-ul {
     padding: 4em; }
 
-  .skill-icon {
-    padding: 20% 25%;}
+  /*.skill-icon {
+    padding: 20% 25%;}*/
 
   /*.skills-ul-li {
     margin-left: -.7em; }*/
@@ -333,14 +345,14 @@ margin: 0px 0px 10% 33%;
     margin-top: 10%;}
 
   .skill-icon {
-    font-size:250px;
-    padding: 20%;}
+    /*font-size:250px;*/
+    /*padding: 20%;*/}
 
   .skills-ul {
     padding: 5em 5em 3em 2em; }
 
   .skills-ul-li {
-    padding: 25%;
+    /*padding: 25%;*/
   }
 
   .contact-me-email {
