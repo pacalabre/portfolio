@@ -260,6 +260,7 @@ margin: 0px 0px 10% 33%;
 @media only screen and (max-width: 950px) {
   .home {
   background-image: url("../Portfolio Photos/sky.jpg");
+  background-position: center;
   }
   .headshot {
     display: block;
@@ -280,7 +281,7 @@ margin: 0px 0px 10% 33%;
   }
   .main-projects-links {
     margin-left: 7%;
-    margin: ;
+    float: none;
   }
   .resume-buttons-section {
     margin-left: 31%;
@@ -305,8 +306,12 @@ margin: 0px 0px 10% 33%;
   }
 
   .section-header-h1 {
-    font-size: 44px
+    font-size: 60px;
   }
+
+  /*.section-header-h1 {
+    font-size: 44px
+  }*/
   .skills-ul {
     padding: 4em; }
 
@@ -369,6 +374,14 @@ margin: 0px 0px 10% 33%;
 
 @media only screen and (max-width: 768px) {
 
+  .home {
+    background-size: 250%;
+  }
+
+  .resume, .home {
+    background-attachment: inherit;
+  }
+
   .resume-buttons-section {
     margin: 0px 0px 10% 23.5%; }
 
@@ -379,6 +392,8 @@ margin: 0px 0px 10% 33%;
     font-size: 270px;
     margin:25% 0% 0% 25%;
   }
+
+
 
 }
 @media only screen and (max-width: 500px) {
@@ -399,10 +414,9 @@ margin: 0px 0px 10% 33%;
   .main-section-projects, .main-section-resume, .main-section-contact {
     padding-left: .5em; }
 
-  .home {
-  background-image: url("../Portfolio Photos/sky.jpg");
-  background-size: cover;
-  background-position: center;
+  .resume {
+  background-attachment: inherit;
+
   }
   /*.resume-buttons-section {
     margin: 0px 0px 10% 20%;
