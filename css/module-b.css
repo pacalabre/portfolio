@@ -41,7 +41,7 @@
   margin-top: -15em; }
 
 .section-header {
-  margin: 15em 5em 21em 30%;
+  margin: 15em auto 21em auto;
   float: right;}
 
 .section-header-h1 {
@@ -269,8 +269,9 @@ margin: 0px 0px 10% 33%;
   }
   .section-header {
     margin-top: 12em;
-    margin-left: 30%;
+    /*margin-left: 30%;*/
     float: none;
+    text-align: center;
   }
   .section-header-h1 {
     color: white;
@@ -375,7 +376,7 @@ margin: 0px 0px 10% 33%;
 @media only screen and (max-width: 768px) {
 
   .home {
-    background-size: 250%;
+    background-size: 170%;
   }
 
   .resume, .home {
@@ -397,9 +398,16 @@ margin: 0px 0px 10% 33%;
 
 }
 @media only screen and (max-width: 500px) {
+  .home {
+    background-size: 200%;
+  }
+
+  .about-text {
+    font-size: 20px;
+  }
 
   .section-header {
-    float: right;
+    /*float: right;*/
     text-align: center;}
 
   .section-header-h1 {
@@ -422,6 +430,12 @@ margin: 0px 0px 10% 33%;
     margin: 0px 0px 10% 20%;
   }*/
 }
+
+@media only screen and (max-width: 425px) {
+    .home {
+      background-size: 325%;
+    }
+  }
 
 
 
