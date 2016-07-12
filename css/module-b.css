@@ -399,7 +399,7 @@ margin: 0px 0px 10% 33%;
 }
 @media only screen and (max-width: 500px) {
   .home {
-    background-size: 200%;
+    background-size: 210%;
   }
 
   .about-text {
@@ -431,12 +431,17 @@ margin: 0px 0px 10% 33%;
   }*/
 }
 
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 410px) {
     .home {
-      background-size: 325%;
+      background-size: 255%;
     }
   }
 
+@media only screen and (max-width: 360px) {
+    .home {
+      background-size: 355%;
+    }
+  }
 
 
 /*# sourceMappingURL=module-b.css.map */
