@@ -140,6 +140,10 @@
   border-color: white;
 }
 
+.float-fix {
+  float: left;
+}
+
 /* Skills Page */
 .skills {
   background-color: #e74c3c; }
@@ -334,7 +338,6 @@ margin: 0px 0px 10% 33%;
 
   /*  .skill-row {
     margin-top: 10%;}
-
   .contact-me-email {
     float: left;
     margin-top: 0px;
@@ -343,17 +346,14 @@ margin: 0px 0px 10% 33%;
     margin: 0px 0px 10% 30%;
   }
 }
-
 @media only screen and (max-width: 578px) {
   .home, .projects, .skills, .resume {
     background-attachment: scroll;
     background-size: cover;
     background-repeat: no-repeat;
   }
-
   .section-header {
     margin-left: 20%; }
-
   /*.headshot {
     margin-left: -1em; }*/
   .section-header-h2 {
