@@ -1,0 +1,231 @@
+/*Clear Fix */
+section {
+  overflow: auto;
+}
+
+/* Reusable Classes */
+.text {
+  font-family: oswald;
+  font-size: 35px;
+  margin: 5% 7%;
+  color: white;
+}
+
+.small-txt {
+  font-size: 30px;
+  font-family: benchnine;
+}
+
+.text-box {
+  color: white;
+  background-color: black;
+  opacity: .6;
+  margin: 7%;
+}
+
+/* Fixed Background Sections */
+.home, .projects, .resume{
+  background-repeat: none;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+}
+
+/* Styling of Headers for Each Section */
+.main-section-about, .main-section-projects, .main-section-resume, .main-section-goals, .main-section-resources {
+  font-family: oswald;
+  font-size: 65px;
+  color: white;
+  background-color: #232323;
+  padding: .7em .7em .7em 1.5em;
+}
+
+/* Home Background Image */
+.home {
+  background-image: url("http://i694.photobucket.com/albums/vv309/pacalabre/photo-1427501482951-3da9b725be23.jpg");
+}
+
+/* Headshot Styling and Position */
+.headshot {
+  border-radius: 50%;
+  height: 250px;
+  width: 250px;
+  display: block;
+  margin-left: 35em;
+  margin-top: -15em;
+}
+
+/* Container for Headshot and Title */
+.section-header {
+  margin: 15em 10em 17em 20%;
+}
+
+/* Styling of Title "Paul Calabrese" */
+.section-header-h1 {
+  font-family: oswald;
+  font-size: 65px;
+  color: white;
+  margin-bottom: -10px;
+}
+
+/* Styling of Title "Front-end Dev, Seattle, WA" */
+.section-header-h2 {
+  font-family: oswald;
+  color: white;
+}
+
+/* Nav Styling */
+.nav {
+  background-color: #232323;
+  text-align: center;
+  margin-bottom: -1em;
+}
+
+.nav a {
+  color: inherit;
+  text-decoration: none;
+}
+.nav-ul {
+  list-style-type: none;
+  display: inline-block;
+  padding: 8.5px 10px 5px;
+}
+
+.nav-ul-li:hover {
+  color: #2f3f51;
+}
+
+.nav-ul-li {
+  color: white;
+  font-family: fjalla one;
+  font-size: 20px;
+  display: inline;
+  padding: 5px;
+}
+
+.nav-ul-social {
+  margin: -2em 0px 0px -70px;
+  display: inline-block;
+}
+
+.nav-ul-social-img {
+  height: 30px;
+  width: 30px;
+}
+
+/* About Me */
+.about {
+  background-color: #2f3f51;
+}
+
+/* Resources */
+.resources{
+  background-color: #2f3e41;
+}
+
+.resource-ul {
+  margin-top: -1.5em;
+}
+
+.resource-ul-li {
+  margin: -.5em 75px;
+  list-style-type: none;
+}
+
+.resource-p {
+  margin-top: .7em;
+}
+
+/* Projects Background */
+.projects {
+  background-image: url("http://i694.photobucket.com/albums/vv309/pacalabre/photo-1431209402980-30a1ab82b4da.jpg");
+}
+
+.main-projects-links {
+  padding: 0px 0px 40px 0px;
+  margin: 20px auto 10px 30%;
+}
+
+.project-text-box {
+  margin-top: -1em;
+}
+
+/* GA and My Goals */
+.goals {
+  background-color: #232323;
+}
+
+/* Footer */
+.footer {
+  color: white;
+  background-color: #232323;
+  height: 100px;
+  text-align: center;
+  padding-top: 2em;
+  margin-top: 0em;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 950px) {
+  .section-header {
+    margin-top: 12em;
+    margin-left: 30%;
+  }
+
+  .headshot {
+    margin-left: 4em;
+    margin-top: 5em;
+    }
+}
+
+@media only screen and (max-width: 805px) {
+  .headshot {
+    margin-left: 0em;
+  }
+
+  .skills-ul {
+    padding: 4em;
+  }
+
+  .skills-ul-li {
+    font-size: 100px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .main-projects-links {
+    margin-left: 15%;
+  }
+}
+
+@media only screen and (max-width: 578px) {
+  .section-header {
+    margin-left: 20%;
+  }
+
+  .headshot {
+    margin-left: -1em;
+  }
+
+  .skills-ul {
+    padding: 4em 3em 3em 2em;
+  }
+
+  .skills-ul-li {
+    font-size: 60px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .home {
+    background-attachment: scroll;
+  }
+
+  .section-header {
+    margin-left: 10%;
+  }
+
+  .main-section-projects, .main-section-resume, .main-section-contact {
+    padding-left: .5em;
+  }
+}
