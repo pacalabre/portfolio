@@ -134,7 +134,7 @@
   font-size: 18px;
 }
 
-.button:hover {
+.button:hover, resume-buttons:hover {
   text-decoration: none;
   background-color: #7F2A21;
   color: #E5E5E5;
@@ -216,11 +216,11 @@ margin: 0px 0px 10% 33%;
 }
 
 .resume-buttons {
-  background-color: #2f3f51;
+  background-color: #e74c3c;
   background-image: none;
 /*  border-color: transparent;*/
   font-family: Questrial;
-  font-size: 15px;
+  font-size: 18px;
 /*  opacity:.8;*/
   margin: 2px; }
 
@@ -228,12 +228,6 @@ margin: 0px 0px 10% 33%;
   opacity: 1;
   font-size: 20px;
   margin: 3px;}
-
-  .resume-buttons:hover {
-    border-color: white;
-    background-color: #2f3f51;
-    color: white;
-  }
 
 /* Contact Me Page */
 .contact {
