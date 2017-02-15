@@ -179,6 +179,9 @@
   font-size: 105px;
   margin-top: -.25em; }
 
+.skill-icon-last {
+  margin-bottom: 25%; }
+
 .skills-learning-h2 {
   margin-top: 6em; }
 
@@ -349,7 +352,8 @@ margin: 3px; }
 
   .skill-icon {
     font-size: 270px;
-    margin:25% 0% 0% 25%;
+    margin-top: 25%;
+    text-align: center;
   }
 
 
@@ -373,8 +377,7 @@ margin: 3px; }
   }
 
   .skill-icon {
-    font-size: 200px;
-    margin-left: 10%; }
+    font-size: 200px; }
 
 
   .main-section-projects, .main-section-resume, .main-section-contact {
