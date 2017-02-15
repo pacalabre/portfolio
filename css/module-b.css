@@ -16,15 +16,12 @@
   color: white;
   background-color: #232323;
   padding: .7em .7em .7em 1.5em;
-  font-weight: 700; }
-
-.main-section-contact {
-  padding-right: 0px;
-  padding-left: 0px;
-}
+  font-weight: 700;
+  margin-top: -13.5px; }
 
 .buttons-section {
-  margin-bottom: 2em;
+  margin-top: 2em;
+  margin-bottom: 5%;
 }
 
 /* Header Styling */
@@ -98,8 +95,8 @@
   /*float:left;*/
   font-weight: 400;}
 
-.about > .about-text {
-  padding-bottom: 5%;
+.about-section > .about-text {
+  padding-bottom: 7%;
 }
 
 /* Projects Page */
@@ -114,9 +111,9 @@
   background-repeat: no-repeat;}
 
 .main-projects-links {
-  padding: 0px 0px 40px 13%;
-  /*margin: 20px 5px 10px 6.25%; */
-  margin: 14% 10px 5% 6.25%; }
+  margin-top: 5%;
+  margin-bottom: 6.5%;
+  }
 
 .project-text {
   float: left;
@@ -138,7 +135,7 @@
   background-color: #e74c3c;
   color: white;
   text-align: center;
-  margin-top: 2em;
+  margin-top: 1em;
   display: block;
   padding: 10px 2%;
   border-radius: 0px;
@@ -197,7 +194,6 @@
   background-attachment: fixed;  }*/
 
 .main-section-resume {
-  margin-top: 0px;
   padding-left: 1.275em; }
 
 .resume-body {
@@ -318,10 +314,10 @@ margin-bottom: 10%;
   .section-header-h2 {
     font-size: 30px;
   }
-  .main-projects-links {
+  /*.main-projects-links {
     margin-left: 7%;
     float: none;
-  }
+  }*/
   /*.resume-buttons-section {
     margin-bottom: 10%;
   }*/
@@ -389,22 +385,9 @@ margin-bottom: 10%;
   .skill-row {
     margin-top: 10%;}
 
-
-
-  .skills-ul {
-    /*padding: 5em 5em 3em 2em;*/ }
-
-  .skills-ul-li {
-    /*padding: 25%;*/
-  }
-
   .contact-me-email {
     font-size: 30px;
-    /*margin-top: -65px;*/
   }
-  .main-section-contact{
-    font-size: 35px;
-    }
 }
 
 @media only screen and (max-width: 768px) {
@@ -416,9 +399,6 @@ margin-bottom: 10%;
   .resume, .home {
     background-attachment: inherit;
   }
-
-  /*.resume-buttons-section {
-    margin: 0px 0px 10% 23.5%; }*/
 
   .download-button {
     padding-right: 0%; }
@@ -437,7 +417,7 @@ margin-bottom: 10%;
   }
 
   .about-text {
-    font-size: 20px;
+    font-size: 30px;
   }
 
   .section-header {
