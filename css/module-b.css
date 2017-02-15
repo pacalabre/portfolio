@@ -179,9 +179,6 @@
   font-size: 105px;
   margin-top: -.25em; }
 
-.skill-icon-last {
-  margin-bottom: 25%; }
-
 .skills-learning-h2 {
   margin-top: 6em; }
 
@@ -329,15 +326,12 @@ margin: 3px; }
     font-size: 25px;
   }
 
-  .skill-row {
-    margin-top: 10%;}
-
   .contact-me-email {
     font-size: 30px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
 
   .home {
     background-size: 197%;
@@ -356,7 +350,11 @@ margin: 3px; }
     text-align: center;
   }
 
+  .skill-row {
+    margin-top: 10%;}
 
+  .skill-icon-last {
+    margin-bottom: 25%; }
 
 }
 @media only screen and (max-width: 500px) {
