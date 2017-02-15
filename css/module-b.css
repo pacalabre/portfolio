@@ -193,14 +193,14 @@
   width: 100%;
 }
 
-.resume-img-sm {
+.resume-email-img-sm {
   width: 40%;
   height: 40%;
-  margin: 10% 0px 20px 30%;
+  margin: 5% 0px 5% 30%;
   border-color: none;
   background-image: none;
   padding: 0px;
-
+  border: none;
 }
 
 .resume-text {
@@ -217,10 +217,10 @@ margin-bottom: 10%;
   font-size: 18px;
   padding: 5px 0px; }
 
-  .resume-button-h2 {
-  opacity: 1;
-  font-size: 20px;
-  margin: 3px;}
+.resume-button-h2 {
+opacity: 1;
+font-size: 20px;
+margin: 3px; }
 
 /* Contact Me Page */
 .contact {
