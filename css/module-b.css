@@ -64,6 +64,10 @@
   font-family: oswald;
   font-size: 25px; }
 
+.navbar-nav {
+  text-align: center;
+}
+
 .nav-ul-social {
   color: grey;
   font-size: 30px;
@@ -107,8 +111,8 @@
   background-repeat: no-repeat;}
 
 .main-projects-links {
-  margin-top: 5%;
-  margin-bottom: 6.5%;
+  margin-top: 10%;
+  margin-bottom: 11.5%;
   }
 
 .project-text {
