@@ -291,6 +291,7 @@ margin: 3px; }
     margin-right: auto;
   }
   .section-header-h1 {
+    padding-top: 90px;
     color: white;
     font-size: 65px;
   }
@@ -332,7 +333,7 @@ margin: 3px; }
 @media only screen and (max-width: 768px) {
 
   .home {
-    background-size: 170%;
+    background-size: 197%;
   }
 
   .resume, .home {
@@ -352,7 +353,7 @@ margin: 3px; }
 }
 @media only screen and (max-width: 500px) {
   .home {
-    background-size: 210%;
+    background-size: 240%;
   }
 
   .about-text {
