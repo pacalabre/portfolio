@@ -5,7 +5,7 @@
   background-attachment: fixed;
   background-position: center center; }
 
-.main-section-about, .projects, .resume, .contact {
+.main-section-about, .projects, .resume, .contact, .form-submit-section {
   background-repeat: none;
   background-repeat: no-repeat;
   background-size: cover;
@@ -266,6 +266,30 @@ margin: 3px; }
 
 .form-btn {
   margin-top: 5px;
+}
+
+/* Form Submit */
+
+.form-submit-html {
+  height: 100%;
+}
+
+.form-submit-body {
+  background-image: url("../Portfolio Photos/citylights1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+
+.form-submit-section {
+  margin-top: 25%;
+  text-align: center;
+  font-family: oswald;
+  color: white;
+}
+
+.form-submit-h1 {
+  font-size: 50px;
 }
 
 /* Footer */
