@@ -452,3 +452,10 @@ th {
 h3 {
   margin-top: 0px;
 }
+
+/*a:focus, a:visted, a:clicked, a:active, button:focus, button:visted, button:clicked, button:active {
+  color: white;
+  background-color: transparent;
+  outline: none;
+  text-decoration: none;
+}*/

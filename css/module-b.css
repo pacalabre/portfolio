@@ -1,3 +1,4 @@
+
 .home, .skills {
   background-repeat: none;
   background-size: cover;
@@ -104,7 +105,7 @@
 .projects {
   background-attachment: fixed; }
 
-.project-beatrepeat, .project-powstash, .project-calc, .project-caladine, .resume {
+.project-beatrepeat, .project-powstash, .project-calc, .project-caladine, .project-email, .resume {
   background-image: url("../Portfolio Photos/citylights1.jpg");
   background-size: cover;
   background-attachment: fixed;
@@ -227,6 +228,11 @@ font-size: 20px;
 margin: 3px; }
 
 /* Contact Me Page */
+.main-section-contact {
+  padding-left: 0;
+  padding-right: 0;
+}
+
 .contact {
   background-color: #232323;
   text-align: center; }
@@ -310,7 +316,7 @@ margin: 3px; }
   }
 @media only screen and (max-width: 805px) {
 
-  .project-beatrepeat, .project-powstash, .project-calc, .project-caladine {
+  .project-beatrepeat, .project-powstash, .project-calc, .project-caladine, .project-email {
     background-size: contain;
     background-attachment: initial;
   }
