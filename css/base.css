@@ -50,10 +50,6 @@ summary {
   display: block;
 }
 
-section, footer {
-  display: block;
-  margin-top:-1.5em;
-}
 
 /**
  * 1. Correct `inline-block` display not defined in IE 8/9.
