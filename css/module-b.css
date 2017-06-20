@@ -200,8 +200,13 @@
   opacity: .9;
   margin: 7%; }
 
+.modal-content {
+  background-color: #2f3f51;
+}
+
 .resume-img-lg {
   width: 100%;
+  padding: 2% 20%;
 }
 
 .resume-email-img-sm {
@@ -232,6 +237,10 @@ margin-bottom: 10%;
 opacity: 1;
 font-size: 20px;
 margin: 3px; }
+
+.modal-footer .btn+.btn {
+  margin-left: auto;
+}
 
 /* Contact Me Page */
 .main-section-contact {
@@ -371,7 +380,7 @@ margin: 3px; }
 @media only screen and (max-width: 767px) {
 
   .home {
-    background-size: 197%;
+    background-size: 220%;
   }
 
   .resume, .home {
@@ -396,7 +405,7 @@ margin: 3px; }
 }
 @media only screen and (max-width: 500px) {
   .home {
-    background-size: 240%;
+    background-size: 265%;
   }
 
   .about-text {
@@ -426,7 +435,7 @@ margin: 3px; }
 
 @media only screen and (max-width: 410px) {
     .home {
-      background-size: 255%;
+      background-size: 330%;
     }
 
     .button {
@@ -436,7 +445,7 @@ margin: 3px; }
 
 @media only screen and (max-width: 360px) {
     .home {
-      background-size: 355%;
+      background-size: 430%;
     }
   }
 
