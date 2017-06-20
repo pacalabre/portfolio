@@ -385,7 +385,7 @@ margin: 3px; }
   }
 @media only screen and (max-width: 805px) {
 
-  .project-beatrepeat, .project-powstash, .project-calc, .project-caladine, .project-email {
+  .project-beatrepeat, .project-powstash, .project-calc, .project-caladine, .project-email, .project-brooks {
     background-size: contain;
     background-attachment: initial;
   }
