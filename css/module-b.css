@@ -117,7 +117,7 @@
 .projects {
   background-attachment: fixed; }
 
-.project-beatrepeat, .project-powstash, .project-calc, .project-caladine, .project-email, .resume {
+.project-beatrepeat, .project-powstash, .project-calc, .project-caladine, .project-email, .project-brooks, .resume {
   background-image: url("../Portfolio Photos/citylights1.jpg");
   background-size: cover;
   background-attachment: fixed;
@@ -173,12 +173,12 @@
 
 /* Emails */
 
-.project-email, .resume {
+.project-email, .project-brooks, .resume {
   text-align: center;
 }
 
-.email-img-lg {
-  padding: 5% 20%;
+.email-img-lg, .brooks-img-lg {
+  padding: 5% 10%;
   background-color: #ecf0f1;
   margin: auto;
   width: 100%;
