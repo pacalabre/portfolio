@@ -26,6 +26,12 @@
   margin-bottom: 2.5%;
 }
 
+.modal-content {
+  background-color: #ecf0f1;
+  border-radius: 0px;
+  text-align: center;
+}
+
 /* Header Styling */
 .home {
   background-size: 800px;
@@ -160,6 +166,19 @@
   float: left;
 }
 
+/* Emails */
+
+.project-email, .resume {
+  text-align: center;
+}
+
+.email-img-lg {
+  padding: 5% 20%;
+  background-color: #ecf0f1;
+  margin: auto;
+  width: 100%;
+}
+
 /* Skills Page */
 .skills {
   background-color: #e74c3c; }
@@ -200,19 +219,14 @@
   opacity: .9;
   margin: 7%; }
 
-.modal-content {
-  background-color: #2f3f51;
-}
-
 .resume-img-lg {
   width: 100%;
-  padding: 2% 20%;
 }
 
 .resume-email-img-sm {
   width: 40%;
   height: 40%;
-  margin: 5% 0px 5% 30%;
+  margin: 3% auto;
   border-color: none;
   background-image: none;
   padding: 0px;
