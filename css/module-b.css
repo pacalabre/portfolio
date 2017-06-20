@@ -69,9 +69,14 @@
 
 /* Nav Styling */
 
-.navbar-collapse {
+.navbar-collapse, .navbar-header {
   background-color: #2f3f51;
 }
+
+.navbar-toggle {
+  border: none;
+}
+
 .nav-ul-li {
   font-family: oswald;
   font-size: 25px; }
@@ -409,6 +414,10 @@ margin: 3px; }
 
   .resume, .home {
     background-attachment: inherit;
+  }
+
+  .main-section-projects, .main-section-resume, .main-section-contact {
+    font-size: 50px;
   }
 
   .download-button {
