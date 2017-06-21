@@ -223,6 +223,10 @@
 .main-section-resume {
   padding-left: 1.275em; }
 
+.resume {
+    background-attachment: fixed;
+    background-size: cover; }
+
 .resume-body {
   color: white;
   background-color: black;
@@ -412,8 +416,13 @@ margin: 3px; }
     background-size: 220%;
   }
 
-  .resume, .home {
+  .home {
     background-attachment: inherit;
+  }
+
+  .resume {
+    background-attachment: initial;
+    background-size: cover;
   }
 
   .main-section-projects, .main-section-resume, .main-section-contact {
@@ -460,10 +469,10 @@ margin: 3px; }
   .main-section-projects, .main-section-resume {
     padding-left: .5em; }
 
-  .resume {
+  /*.resume {
   background-attachment: inherit;
 
-  }
+  }*/
 }
 
 @media only screen and (max-width: 410px) {
