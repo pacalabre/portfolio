@@ -37,13 +37,10 @@
               <li class="nav-ul-li"><a href="#">Home<span class="sr-only">(current)</span></a></li>
               <li class="nav-ul-li"><a href="#projects">Projects</a></li>
               <li class="nav-ul-li"><a href="#skills">Skills</a></li>
-              <li class="nav-ul-li"><a href="#resume">Resume</a></li>
+              <!-- <li class="nav-ul-li"><a href="#resume">Resume</a></li> -->
               <li class="nav-ul-li"><a href="#contact">Contact Me</a></li>
             </ul>
             <ul>
-              <li class="nav-ul-social">
-                <a href="https://twitter.com/nmdTheAbstract" target="_blank"><h4 class="icon-social-twitter nav-ul-social"></h4></a>
-              </li>
               <li class="nav-ul-social">
                 <a href="https://github.com/pacalabre" target="_blank"><h4 class="icon-social-github nav-ul-social"></h4></a></a>
               </li>
@@ -63,23 +60,11 @@
     <main>
       <!-- About Me -->
       <section class="about about-section">
-        <p class="about-text">I am a front end developer with a passion for building clean, beautiful, responsive, and maintainable websites and web apps. When I am not coding or listening to podcasts about coding - you can find me making instrumental hip hop, searching for deep powder on the mountain, and attending comedy shows and concerts.</p>
+        <p class="about-text">I am a front end developer with a passion for building clean, beautiful, responsive, and maintainable websites and web apps. I currently work for Avanade in Seattle where I get to collaborate on projects with some of the biggest and best companies in the city.
+        When I am not coding or listening to podcasts about coding you can find me making instrumental hip hop and searching for deep powder in the mountains.</p>
       </section>
       <section id="projects" class="projects container-fluid">
         <h3 class="main-section-projects">Projects</h3>
-        <section class="row project-calc">
-        <!-- The Emma Dilemma -->
-          <a href="http://theemmadilemma.com" target="_blank"><img class="main-projects-links col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2" src="Portfolio Photos/emma-dilemma.png" border="0" alt="Emma Dilemma Project Image" /></a>
-          <section class="project-text1 about float-fix">
-            <p class = "about about-text">I built this portfolio website for a freelance copywriter in Chicago. I used HTML, SASS, jQuery, Wordpress and the Front-end framework Materialize.
-            </p>
-            <section class="buttons-section">
-              <a class="button" href="http://theemmadilemma.com" target="_blank">View Project</a>
-              <a class="button" href="https://github.com/pacalabre/emmaDilemma" target="_blank">View on Github</a>
-            </section>
-          </section>
-        </section>
-
         <section class = "row project-brooks">
         <!-- Brooks -->
          <img src="Portfolio Photos/brooks/WomensLP.jpg" type="button" class="resume-email-img-sm btn btn-primary" data-toggle="modal" data-target=".brooks-modal">
@@ -105,16 +90,27 @@
           </section>
         </section>
       </section>
-      <!-- CHO Site -->
-      <section class="row project-powstash">
-        <a href="http://chogrouphr.com/portland" target="_blank"><img class="main-projects-links col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2" src="Portfolio Photos/cho-group.png" border="0" alt="CHO Group Project Image" /></a>
+      <section class="row project-calc">
+        <!-- Eileen -->
+        <a href="http://eileenconsedine.com" target="_blank"><img class="main-projects-links col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2" src="Portfolio Photos/eileen-consedine-portfolio.jpg" border="0" alt="Eileen Consedine Website" /></a>
         <section class="project-text1 about float-fix">
-          <p class = "about about-text">
-            This is a website that I designed, built, and maintain for CHO Group - which is an invitation based organization that promotes best practices and cutting edge ideas to HR leaders. The site is built with HTML, CSS, and jQuery - using the HTML5 video tag to create the video background at desktop screen sizes.</p>
-            <section class="buttons-section">
-              <a class="button" href="http://chogrouphr.com/portland" target="_blank">View Project</a>
-              <a class="button" href="http://github.com/pacalabre/Waldron-CHO-microsite" target="_blank">View on Github</a>
-           </section>
+          <p class = "about about-text">I built this portfolio website for a freelance copywriter in Seattle. I used Angular 6 and the Wordpress API as a "headless" CMS.
+          </p>
+          <section class="buttons-section">
+            <a class="button" href="http://eileenconsedine.com" target="_blank">View Project</a>
+            <a class="button" href="https://github.com/pacalabre/eileen-portfolio-ng-wordpress" target="_blank">View on Github</a>
+          </section>
+        </section>
+      </section>
+      <section class="row project-calc">
+        <!-- The Emma Dilemma -->
+        <img class="main-projects-links col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2" src="Portfolio Photos/emma-dilemma.png" border="0" alt="Emma Dilemma Project Image" />
+        <section class="project-text1 about float-fix">
+          <p class = "about about-text">I built this portfolio website for a freelance copywriter in Chicago. I used HTML, SASS, jQuery, Wordpress and the Front-end framework Materialize. This project is currently being migrated to a similar approach as the project above - using Angular 6 and the Wordpress API, but you can still see the code to the Wordpress theme in the Github link below.
+          </p>
+          <section class="buttons-section">
+            <a class="button" href="https://github.com/pacalabre/emmaDilemma" target="_blank">View on Github</a>
+          </section>
         </section>
       </section>
         <section class="row project-beatrepeat">
@@ -166,7 +162,6 @@
           </section>
         </section>
       </section>
-
     <!--Skills Section-->
       <section id="skills" class="skills ">
         <ul class="skills-ul">
@@ -174,22 +169,21 @@
             <li class=" skills-ul-li"><i class="skill-icon devicon-html5-plain-wordmark col-xs-12 col-sm-offset-1 col-sm-2 col-md-offset-1 col-md-2 col-lg-2 col-xl-2"></i></li>
             <li class=" skills-ul-li"><i class="skill-icon devicon-css3-plain-wordmark colored col-xs-12 col-sm-offset-0 col-sm-2 col-md-offset-0 col-md-2 col-lg-2 col-xl-2"></i></li>
             <li class=" skills-ul-li"><i class="skill-icon devicon-javascript-plain col-xs-12 col-sm-offset-0 col-sm-2 col-md-offset-0 col-md-2 col-lg-2 col-xl-2"></i></li>
-            <li class=" skills-ul-li"><i class="skill-icon devicon-jquery-plain-wordmark colored col-xs-12 col-sm-offset-0 col-sm-2 col-md-offset-0 col-md-2 col-lg-2 col-xl-2"></i></li>
+            <li class=" skills-ul-li"><i class="skill-icon devicon-angularjs-plain col-xs-12 col-sm-offset-0 col-sm-2 col-md-offset-0 col-md-2 col-lg-2 col-xl-2"></i></li>
             <li class=" skills-ul-li"><i class="skill-icon devicon-sass-original colored col-xs-12 col-sm-offset-0 col-sm-2 col-md-offset-0 col-md-2 col-lg-2 col-xl-2"></i></li>
           </div>
           <div class="row skill-row">
             <li class=" skills-ul-li"><i class="skill-icon devicon-git-plain-wordmark col-xs-12 col-sm-offset-1 col-sm-2 col-md-offset-1 col-md-2 col-lg-2 col-xl-2"></i></li>
             <li class=" skills-ul-li"><i class="skill-icon devicon-wordpress-plain-wordmark colored col-xs-12 col-sm-offset-0 col-sm-2 col-md-offset-0 col-md-2 col-lg-2 col-xl-2"></i></li>
-            <li class=" skills-ul-li"><i class="skill-icon devicon-angularjs-plain-wordmark col-xs-12 col-sm-offset-0 col-sm-2 col-md-offset-0 col-md-2 col-lg-2 col-xl-2"></i></li>
+            <li class=" skills-ul-li"><i class="skill-icon devicon-jquery-plain-wordmark colored col-xs-12 col-sm-offset-0 col-sm-2 col-md-offset-0 col-md-2 col-lg-2 col-xl-2"></i></li>
             <li class=" skills-ul-li"><i class="skill-icon devicon-bootstrap-plain-wordmark colored col-xs-12 col-sm-offset-0 col-sm-2 col-md-offset-0 col-md-2 col-lg-2 col-xl-2"></i></li>
             <li class="skills-ul-li"><i class="skill-icon skill-icon-last devicon-photoshop-line colored col-xs-12 col-sm-offset-0 col-sm-2 col-md-offset-0 col-md-2 col-lg-2 col-xl-2"></i></li>
           </div>
         </ul>
       </section>
       <!--Resume Section -->
-      <section id="resume" class="resume row">
+      <!-- <section id="resume" class="resume row">
         <h3 class="main-section-resume">Resume</h3>
-        <!-- Large modal -->
         <img src="Portfolio Photos/creddle-resume.jpg" type="button" class="resume-email-img-sm btn btn-primary" data-toggle="modal" data-target=".resume-modal">
         <section class="resume-buttons-section">
           <button type="button" class="button" data-toggle="modal" data-target=".resume-modal">View Resume</button>
@@ -206,7 +200,7 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
       <!--Contact Me-->
       <section id="contact" class="contact">
         <h3 class="main-section-contact">Contact Me</h3>
@@ -221,7 +215,7 @@
         </form>
       </section>
       <footer class="footer">
-        <h3 class="footer-text">PaulCalabrese.me 2017</h3>
+        <h3 class="footer-text">PaulCalabrese.me 2019</h3>
       </footer>
     </main>
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
